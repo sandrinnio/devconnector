@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-unused-vars": 0,
+    "no-console": 0,
+    "no-useless-escape": 0,
+    "one-var": 0,
+    "no-undef": 0,
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
+    "max-len": [ "error", { "code": 400 }],
+    "space-before-function-paren": [ "error", { "anonymous": "ignore", "named": "always" } ],
+    "semi": [ 2, "never" ],
+    "no-underscore-dangle": 0
+  }
+}

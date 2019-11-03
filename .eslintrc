@@ -17,7 +17,7 @@
     "no-console": 0,
     "no-useless-escape": 0,
     "one-var": 0,
-    "no-undef": "error",
+    "no-undef": 0,
     "indent": [ "error", 2, { "SwitchCase": 1 } ],
     "max-len": [ "error", { "code": 400 }],
     "space-before-function-paren": [ "error", { "anonymous": "ignore", "named": "always" } ],
