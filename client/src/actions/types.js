@@ -9,3 +9,7 @@ export const AUTH_ERROR = 'AUTH_ERROR'
 export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
 export const LOGIN_FAILURE = 'LOGIN_FAILURE'
 export const LOGOUT = 'LOGOUT'
+
+export const GET_PROFILE = 'GET_PROFILE'
+export const PROFILE_FAILURE = 'PROFILE_FAILURE'
+export const CLEAR_PROFILE = 'CLEAR_PROFILE'
