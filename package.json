@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run client\" \"npm start\""
+    "dev": "concurrently \"npm run client\" \"npm start\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Sandro Kakashvili",
   "license": "MIT",
@@ -32,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandrinnio/devconnector-back.git"
+    "url": "git+https://github.com/sandrinnio/devconnector.git"
   },
   "bugs": {
-    "url": "https://github.com/sandrinnio/devconnector-back/issues"
+    "url": "https://github.com/sandrinnio/devconnector/issues"
   },
-  "homepage": "https://github.com/sandrinnio/devconnector-back#readme"
+  "homepage": "https://github.com/sandrinnio/devconnector#readme"
 }
