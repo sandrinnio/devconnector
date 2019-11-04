@@ -18,7 +18,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
         <Fragment>
           <h1 className="large text-primary">Developers</h1>
           <p className="lead">
-            <i className="fab fa-connecdevelop" />{' '}
+            <i className="fab fa-connectdevelop" />{' '}
             Browse and connect with developers
           </p>
           <div className="profiles">
@@ -27,7 +27,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
                 <ProfileItem key={profile._id} profile={profile} />
               ))
             ) : (
-              <h4>No profiles found...s</h4>
+              <h4>No profiles found...</h4>
             )}
           </div>
         </Fragment>

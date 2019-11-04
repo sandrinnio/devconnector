@@ -52,7 +52,7 @@ const CreateProfile = ({ createProfile, history }) => {
             onChange={e => handleFieldChange(e)}
           >
             <option value="0">* Select Professional Status</option>
-            <option value="Developer">Developer</option>
+            <option value="Software Developer">Software Developer</option>
             <option value="Junior Developer">Junior Developer</option>
             <option value="Senior Developer">Senior Developer</option>
             <option value="Manager">Manager</option>

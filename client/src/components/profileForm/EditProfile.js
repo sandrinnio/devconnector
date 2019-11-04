@@ -22,7 +22,7 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, getCurrentP
       instagram: loading || !profile.social ? '' : profile.social.instagram,
       facebook: loading || !profile.social ? '' : profile.social.facebook
     })
-  }, [loading, getCurrentProfile, profile])
+  }, [loading, getCurrentProfile])
 
   const [formData, setFormData] = useState({
     company: '',
@@ -71,7 +71,7 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, getCurrentP
             onChange={e => handleFieldChange(e)}
           >
             <option value="0">* Select Professional Status</option>
-            <option value="Developer">Developer</option>
+            <option value="Software Developer">Software Developer</option>
             <option value="Junior Developer">Junior Developer</option>
             <option value="Senior Developer">Senior Developer</option>
             <option value="Manager">Manager</option>
