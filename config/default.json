@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://sandrinnio:zaqwsdeqwsd@welcome2020-u1w0u.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken",
-  "githubClientId": "ab5f88a537c32b8d63a5",
-  "githubSecret": "a6a549f531b03d64df029e7152c728a2c0919eee"
-}
